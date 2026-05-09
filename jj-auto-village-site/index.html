@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- GitHub Pages project sites: avoid broken relative asset URLs when opened as /repo (no trailing slash). -->
+  <script>
+    (function () {
+      var p = location.pathname;
+      var last = p.split("/").pop() || "";
+      if (
+        p.length > 1 &&
+        !p.endsWith("/") &&
+        last.indexOf(".") === -1
+      ) {
+        location.replace(p + "/" + location.search + location.hash);
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="J &amp; J Auto Village LLC — full-service auto repair, diagnostics, and maintenance in Odessa, Texas. Fast, reliable, done right the first time." />
+  <title>J &amp; J Auto Village LLC | Auto Repair · Odessa TX</title>
+  <link rel="canonical" id="page-canonical" href="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="J &amp; J Auto Village LLC | Auto Repair · Odessa TX" />
+  <meta property="og:description" content="J &amp; J Auto Village LLC — full-service auto repair, diagnostics, and maintenance in Odessa, Texas. Fast, reliable, done right the first time." />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:alt" content="J and J Auto Village LLC logo" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="J &amp; J Auto Village LLC | Auto Repair · Odessa TX" />
+  <meta name="twitter:description" content="J &amp; J Auto Village LLC — full-service auto repair, diagnostics, and maintenance in Odessa, Texas. Fast, reliable, done right the first time." />
+  <meta name="twitter:image" content="" />
+  <script>
+    (function () {
+      try {
+        var pageUrl = location.href.split("#")[0];
+        var canon = document.getElementById("page-canonical");
+        if (canon) canon.setAttribute("href", pageUrl);
+        var ogUrl = document.querySelector('meta[property="og:url"]');
+        if (ogUrl) ogUrl.setAttribute("content", pageUrl);
+        function abs(rel) {
+          return new URL(rel, document.baseURI).href;
+        }
+        var ogImg = document.querySelector('meta[property="og:image"]');
+        var twImg = document.querySelector('meta[name="twitter:image"]');
+        if (ogImg) ogImg.setAttribute("content", abs("assets/logo.png"));
+        if (twImg) twImg.setAttribute("content", abs("assets/logo.png"));
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="J and J Auto Village home">
+        <img
+          class="logo-img"
+          src="assets/logo.png"
+          alt="J &amp; J Auto Village LLC logo"
+          width="56"
+          height="56"
+        />
+        <span class="logo-text">Auto Village LLC <small>Auto Repair</small></span>
+      </a>
+      <nav class="site-nav site-nav-hidden" id="site-nav" aria-hidden="true"></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Odessa · Full-service auto repair</p>
+        <h1>Fast, reliable, done right.</h1>
+        <p class="lead">
+          J &amp; J Auto Village LLC keeps you moving with honest diagnostics, up-front pricing,
+          and quality repairs—from tune-ups to full inspections.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:+14699642222">Call (469) 964-2222</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/place/J+%26+J+AUTO+VILLAGE+LLC/@31.7925863,-102.503491,6542m/data=!3m1!1e3!4m19!1m12!4m11!1m6!1m2!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!2sJ+%26+J+AUTO+VILLAGE+LLC,+101+McCabe+Ave,+Odessa,+TX+79763!2m2!1d-102.4959402!2d31.8107041!1m3!2m2!1d-102.4865299!2d31.7831079!3m5!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!8m2!3d31.8107041!4d-102.4959402!16s%2Fg%2F11mcyqyfql!5m2!1e2!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Directions from 12036 I-20</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>Shop</dt>
+            <dd>Walk-ins welcome</dd>
+          </div>
+          <div>
+            <dt>Focus</dt>
+            <dd>Diagnostics &amp; repair</dd>
+          </div>
+          <div>
+            <dt>Service</dt>
+            <dd>Se habla Español</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Services we offer</h2>
+          <p>From check-engine lights to full inspections, J &amp; J Auto Village LLC handles the jobs that keep your car on the road.</p>
+        </header>
+        <div class="card-grid">
+          <article class="card">
+            <h3>OBD2 diagnostics</h3>
+            <p>Professional scan tools to read codes, pinpoint issues, and recommend the right repair—no guessing.</p>
+          </article>
+          <article class="card">
+            <h3>Engine scan &amp; tune-ups</h3>
+            <p>Smoother starts, better mileage, and more power with fresh plugs, filters, and calibrated systems.</p>
+          </article>
+          <article class="card">
+            <h3>Suspension &amp; trailer repair</h3>
+            <p>Shocks, struts, and trailer fixes to keep your ride steady and safe on West Texas roads.</p>
+          </article>
+          <article class="card">
+            <h3>A/C &amp; heating</h3>
+            <p>Stay comfortable year-round with A/C recharge, leak checks, and heater repairs.</p>
+          </article>
+          <article class="card">
+            <h3>Brakes &amp; battery</h3>
+            <p>Brake pads, rotors, and battery testing so you can stop and start with confidence.</p>
+          </article>
+          <article class="card">
+            <h3>Tires, oil &amp; inspections</h3>
+            <p>Used tires for sale, tire repair and rotation, oil and filter changes, and full vehicle inspections.</p>
+          </article>
+        </div>
+        <header class="section-head" style="margin-top:2.25rem;">
+          <h2>Used vehicle options</h2>
+          <p>We also help buyers looking for dependable used cars, SUVs, and trucks.</p>
+        </header>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Cars &amp; SUVs</h3>
+            <p>Daily drivers and family haulers inspected for safety basics and road readiness.</p>
+          </article>
+          <article class="card">
+            <h3>Trucks &amp; work rigs</h3>
+            <p>Built for Permian Basin jobs—ask about service records when available.</p>
+          </article>
+          <article class="card">
+            <h3>Trade-ins welcome</h3>
+            <p>Bring your payoff info and title docs—we’ll walk through numbers clearly.</p>
+          </article>
+          <article class="card">
+            <h3>History &amp; disclosure</h3>
+            <p>We share what we know; third-party history reports when applicable.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="why-us">
+      <div class="section-inner split">
+        <div>
+          <header class="section-head align-left">
+            <h2>Why buyers choose J &amp; J</h2>
+            <p>A local shop should feel approachable—clear paperwork, respectful timelines, and vehicles/services priced for real roads.</p>
+          </header>
+          <ul class="checklist">
+            <li>No mystery fees outlined at signing—ask for your out-the-door total.</li>
+            <li>Test drives on your route when reasonable; we want the vehicle to earn your trust.</li>
+            <li>Small-shop attention with inventory turnover—fresh units arrive regularly.</li>
+            <li>Upfront pricing—no surprises on your final ticket.</li>
+            <li>Open on weekends and walk-ins welcome.</li>
+            <li>Quality work at fair prices, with options explained in plain language.</li>
+            <li><span lang="es">Se habla Español</span>—hablamos tu idioma.</li>
+          </ul>
+        </div>
+        <div class="highlight-box">
+          <blockquote>
+            “We sell cars we’d park in our own driveway and deliver repairs we stand behind—honest descriptions and fair service every time.”
+          </blockquote>
+          <p class="cite">— J &amp; J Auto Village LLC</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="section-inner">
+        <div class="reviews-shop-clips" id="shop-clips">
+          <header class="section-head">
+            <h2>Shop clips</h2>
+            <p class="muted">Quick moments from the bay—tap play on any clip.</p>
+          </header>
+          <div class="gallery gallery--video">
+            <figure class="gallery-item">
+              <video
+                class="gallery-video"
+                controls
+                preload="metadata"
+                playsinline
+                src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465130523263107/review-1.mp4?ex=69ffcf31&amp;is=69fe7db1&amp;hm=0b839c38475bf2e4dde35daf28ff1a445136ed36a00caf2d0d9892da2bc3e22a&amp;"
+                aria-label="Shop clip 1"
+              ></video>
+              <figcaption>Bay clip 1</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <video
+                class="gallery-video"
+                controls
+                preload="metadata"
+                playsinline
+                src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465143404232805/review-2.mp4?ex=69ffcf34&amp;is=69fe7db4&amp;hm=822c2b9758f597d9bd94ae9dc4689be377bb7a84f249ceff8a74d8f1728bf4c5&amp;"
+                aria-label="Shop clip 2"
+              ></video>
+              <figcaption>Bay clip 2</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <video
+                class="gallery-video"
+                controls
+                preload="metadata"
+                playsinline
+                src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465153566900364/review-3.mp4?ex=69ffcf37&amp;is=69fe7db7&amp;hm=c397e5563079b18b8d653656e8aaace150c02a78af4e704cf31ec8c3e0984e0c&amp;"
+                aria-label="Shop clip 3"
+              ></video>
+              <figcaption>Bay clip 3</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <header class="section-head reviews-after-clips">
+          <h2>Customer reviews</h2>
+          <p>See what other drivers say about J &amp; J Auto Village LLC—and share your own experience.</p>
+        </header>
+
+        <div class="reviews-layout">
+          <div class="reviews-form-card">
+            <h3>Leave a review</h3>
+            <form id="review-form">
+              <label class="field">
+                <span>Your name</span>
+                <input type="text" name="name" maxlength="60" required placeholder="Your name" />
+              </label>
+
+              <label class="field">
+                <span>Service category</span>
+                <select name="category" required>
+                  <option value="">Select a category</option>
+                  <option value="Diagnostics">Diagnostics / Check engine</option>
+                  <option value="Brakes">Brakes</option>
+                  <option value="AC">A/C &amp; heating</option>
+                  <option value="Oil">Oil change / Maintenance</option>
+                  <option value="Suspension">Suspension / Trailer</option>
+                  <option value="Tires">Tires</option>
+                  <option value="Other">Other</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Rating</span>
+                <select name="rating" required>
+                  <option value="">Rate 1–5</option>
+                  <option value="5">★★★★★ (5) – Excellent</option>
+                  <option value="4">★★★★☆ (4) – Very good</option>
+                  <option value="3">★★★☆☆ (3) – Okay</option>
+                  <option value="2">★★☆☆☆ (2) – Needs improvement</option>
+                  <option value="1">★☆☆☆☆ (1) – Poor</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Tell us about your visit</span>
+                <textarea name="text" rows="4" maxlength="600" required placeholder="Describe the service you received and how it went."></textarea>
+              </label>
+
+              <label class="field">
+                <span>Add photos/videos (optional)</span>
+                <input type="file" name="media" accept="image/*,video/*" multiple />
+              </label>
+
+              <button type="submit" class="btn btn-primary btn-lg full-width">Submit review</button>
+              <p id="review-form-msg" class="small-text" aria-live="polite"></p>
+              <p class="muted small-text">By submitting, you agree this review may be shown publicly on the site.</p>
+            </form>
+          </div>
+
+          <div class="reviews-list-card">
+            <h3>Recent reviews</h3>
+            <div id="reviews-list" class="reviews-list" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <div class="reviews-videos" id="video-previews">
+          <header class="section-head align-left">
+            <h3>Video previews</h3>
+            <p class="muted">More clips from customers and the shop.</p>
+          </header>
+          <div class="reviews-video-grid reviews-video-grid--embed">
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465130523263107/review-1.mp4?ex=69ffcf31&amp;is=69fe7db1&amp;hm=0b839c38475bf2e4dde35daf28ff1a445136ed36a00caf2d0d9892da2bc3e22a&amp;"></video>
+              <figcaption>Customer review · part 1</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465143404232805/review-2.mp4?ex=69ffcf34&amp;is=69fe7db4&amp;hm=822c2b9758f597d9bd94ae9dc4689be377bb7a84f249ceff8a74d8f1728bf4c5&amp;"></video>
+              <figcaption>Customer review · part 2</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465153566900364/review-3.mp4?ex=69ffcf37&amp;is=69fe7db7&amp;hm=c397e5563079b18b8d653656e8aaace150c02a78af4e704cf31ec8c3e0984e0c&amp;"></video>
+              <figcaption>Customer review · part 3</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465278053843066/AQMl2JhU6Y0evQpbVbPY4Vi7B4H_-KKc06Jhxh6-R8MjYbR94wOs9FdsOTcOLE-U8Zdnx6aTHmwveiVoxu55YT5u5OMMlIPYju0.mp4?ex=69ffcf54&amp;is=69fe7dd4&amp;hm=cf916c3fed7196bff5d43cd318a895f79728e6fa9c67399a76ce32041b789cc2&amp;"></video>
+              <figcaption>Quick shop tour</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465283254910996/AQMPfsLKYa4kx9_7sCmgDWBRezLA2C0IuOHQwAP9PyiTsUppJcpsXh3sjyc0FZ8Gw4mbILVG67K2Uuj3YPcdK5qGU_Q5n2uwFOsJbsZM4NdMzw.mp4?ex=69ffcf55&amp;is=69fe7dd5&amp;hm=6a8d4088735ca7fec8ceea63b3b0bfbab74bc27236d76a6ef4ef130aef97f59c&amp;"></video>
+              <figcaption>On the lift</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465348509761607/AQMYLlNcB_pMctXjIPH4PdsehgdsgO8y7phS5ld_DdSUXlpssQUfevNjlDjnVsH5VvAou562ljyz9pJButDWkWWoDIGRHRqP-qwDWfNsyQ1cqA.mp4?ex=69ffcf65&amp;is=69fe7de5&amp;hm=573790181cbf961b780d2eaa01818c5cbb486f1794955d0d8e1faff9e5f0cd7a&amp;"></video>
+              <figcaption>Under the hood</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465415035621506/AQN1XuhkNWm3ijYZ0BY6DqYryJ5-riyI6en1b_e4haPZcCCV615yeyhSshUNvD_zs_UZc6aC3RAZI8DxMouGgQqunAkT96wQbQ4Jj-kGSkBXvA.mp4?ex=69ffcf75&amp;is=69fe7df5&amp;hm=9793047e1d65d3a84954d2309557364e5490d647dbd94233e5f110a96c1e8429&amp;"></video>
+              <figcaption>Walk-around check</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465430424522893/AQNoy2ODkzmzXJ3tVP01ZKCHR6Gv5N1PuTjxZLDVAfGPom4Tvm96nTQddbd9y82ou4hE-_sc9KXgtAfNVL-eHqFfm_bCAOGjrGCzgi-L_IYONw.mp4?ex=69ffcf79&amp;is=69fe7df9&amp;hm=0e729c1967106aafe8e1bad450970d7990c93089dfd9aaac64bc3eb93b39226a&amp;"></video>
+              <figcaption>Diagnostics snapshot</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465500054290542/AQODg2_dlAq9cHaGfQcCvULDaEP5OW8MIQUpXLfHlMZVk2yV7aMt-SwWzMFbeG5xO9fylQezUMrq4jBlNPpoT9xPtiyqJH4IPECPm081JfXz7w.mp4?ex=69ffcf89&amp;is=69fe7e09&amp;hm=2127d4e5fe9c58bf024a1eedcad978eb167faade40a84857fe1a5890d1723a9d&amp;"></video>
+              <figcaption>Before &amp; after</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465524355956816/AQONN4IXq-I9WXdqP8LYPYeDXqdHDnQaVcbVvKnYkFDPXUMei0Qs9EtFnZn1QcY50KM0EF58drPvM7G2sLjxjThRz-38rPUXGPo.mp4?ex=69ffcf8f&amp;is=69fe7e0f&amp;hm=de3bd2d8fe3c53345f8bea48cb1c33bd769a47bc80f0425fe39a8d4e9a37fa1e&amp;"></video>
+              <figcaption>Road-test ready</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465595805925387/AQPcNTRzzoSglus7t_hHq0OPKqT8FcnvlDZwRIUwwE1igFGNTL3RBndKkFvlAME2puYMdD0d8FExRpVmvYNQ9uk-Qf5BiPLAgVpsl0822Xm-tw.mp4?ex=69ffcfa0&amp;is=69fe7e20&amp;hm=137408d5c09b4f87ef1e7a2a9a02173924fa947464f3e8c2486e4ed7f16ad024&amp;"></video>
+              <figcaption>Front desk moment</figcaption>
+            </figure>
+            <figure class="review-video-wrap">
+              <video controls preload="metadata" playsinline src="https://cdn.discordapp.com/attachments/1498756762755534929/1502465617171714172/AQPmauC_aVaRnmsdb-K73Qs6EUUxfnEcSBTOCa3C0-e7Z3GN1JbmOmamRU_wkCFwM3e-Q3kZ9wZeRKcjn_PwYWHGh2o8uQfKpzM.mp4?ex=69ffcfa5&amp;is=69fe7e25&amp;hm=9a68abecc8b35ed259cdbcff3d15e06f073928215e89ce17b4ed51bbd63e30af&amp;"></video>
+              <figcaption>Thanks for pulling up</figcaption>
+            </figure>
+          </div>
+          <p class="muted small-text video-social-fallback">
+            Prefer social? <a href="https://www.tiktok.com/@jnjautovillagellc" target="_blank" rel="noopener noreferrer">TikTok</a>
+            · <a href="https://www.facebook.com/share/16RVkc8uUk/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="visit">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Visit the shop</h2>
+          <p>Pull up today—your car will thank you. We’re just a few minutes north of I-20.</p>
+        </header>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img class="gallery-img" src="assets/shop/service-bay.png" alt="Service bay" loading="lazy" />
+            <figcaption>Fast, reliable work</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-img" src="assets/shop/front-desk.png" alt="Front desk" loading="lazy" />
+            <figcaption>Clear communication</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-img" src="assets/shop/tools-ready.png" alt="Tools and equipment" loading="lazy" />
+            <figcaption>Diagnostics &amp; inspections</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="section-inner cta-inner">
+        <div>
+          <h2>Need your car checked out?</h2>
+          <p>Call during business hours to talk through what your vehicle is doing—we’ll help you plan the next step.</p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="tel:+14699642222">Call (469) 964-2222</a>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-inner contact-grid">
+        <div>
+          <header class="section-head align-left">
+            <h2>Contact &amp; location</h2>
+            <p>Call, message, or pull up—J &amp; J Auto Village LLC is ready to help with your next repair.</p>
+          </header>
+          <address class="address">
+            <strong>J &amp; J Auto Village LLC</strong><br />
+            101 McCabe Ave<br />
+            Odessa, Texas 79766<br />
+            <a href="https://www.google.com/maps/place/J+%26+J+AUTO+VILLAGE+LLC/@31.7925863,-102.503491,6542m/data=!3m1!1e3!4m19!1m12!4m11!1m6!1m2!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!2sJ+%26+J+AUTO+VILLAGE+LLC,+101+McCabe+Ave,+Odessa,+TX+79763!2m2!1d-102.4959402!2d31.8107041!1m3!2m2!1d-102.4865299!2d31.7831079!3m5!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!8m2!3d31.8107041!4d-102.4959402!16s%2Fg%2F11mcyqyfql!5m2!1e2!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+          </address>
+          <dl class="hours">
+            <div><dt>Phone</dt><dd><a href="tel:+14699642222">(469) 964-2222</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:Jnjautovillagellc@gmail.com">Jnjautovillagellc@gmail.com</a></dd></div>
+            <div><dt>Thursday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+            <div><dt>Friday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+            <div><dt>Saturday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+            <div><dt>Sunday</dt><dd>10:00 AM – 6:30 PM</dd></div>
+            <div><dt>Monday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+            <div><dt>Tuesday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+            <div><dt>Wednesday</dt><dd>8:00 AM – 7:30 PM</dd></div>
+          </dl>
+          <div class="social-links">
+            <h3>Follow J &amp; J</h3>
+            <ul>
+              <li><a href="https://www.tiktok.com/@jnjautovillagellc" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+              <li><a href="https://www.facebook.com/share/16RVkc8uUk/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            title="Satellite map of J and J Auto Village LLC"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=101+McCabe+Ave,+Odessa,+TX+79766&t=k&z=16&output=embed"
+          ></iframe>
+          <p class="map-note">
+            About 4 minutes from <strong>12036 I-20</strong> — just minutes away from the I-20 highway in <strong>West Odessa</strong>.
+            For the blue route line, click directions in Google Maps.
+          </p>
+          <div class="map-cta">
+            <a
+              class="btn btn-ghost map-cta-btn"
+              href="https://www.google.com/maps/place/J+%26+J+AUTO+VILLAGE+LLC/@31.7925863,-102.503491,6542m/data=!3m1!1e3!4m19!1m12!4m11!1m6!1m2!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!2sJ+%26+J+AUTO+VILLAGE+LLC,+101+McCabe+Ave,+Odessa,+TX+79763!2m2!1d-102.4959402!2d31.8107041!1m3!2m2!1d-102.4865299!2d31.7831079!3m5!1s0x86fbb1a3ecbdb7cf:0x7c7ce66562f5e563!8m2!3d31.8107041!4d-102.4959402!16s%2Fg%2F11mcyqyfql!5m2!1e2!1e4?entry=ttu&amp;g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Get route from 12036 I-20</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-brand"><strong>J &amp; J Auto Village LLC</strong></p>
+      <p class="footer-copy">&copy; <span data-year></span> J &amp; J Auto Village LLC. All rights reserved.</p>
+      <p class="footer-note">Fast. Reliable. Done right the first time. Se habla Español.</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
